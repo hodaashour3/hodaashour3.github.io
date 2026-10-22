@@ -1,23 +1,17 @@
-HODA ASHOUR — AI AUTOMATION PORTFOLIO WEBSITE
+HODA ASHOUR — AI AUTOMATION PORTFOLIO
 
-Files:
-- index.html: page content and structure
+CONTENTS
+- index.html: website page (14 sections)
 - styles.css: responsive forest-green and gold design
-- script.js: mobile menu and subtle scroll-in animations
-- assets/: original workflow images extracted from your PowerPoint (kept as source assets; the redesigned site draws workflow diagrams in responsive HTML so they remain readable on mobile)
+- script.js: navigation and scroll effects
+- assets/ha-profile.svg: HA monogram profile logo
+- assets/*-workflow.svg: workflow diagrams with illustrative sample outputs
 
-EASIEST NO-CODE PUBLISHING:
-1. Keep all files together in the hoda_portfolio_website folder.
-2. Zip the folder contents (index.html, styles.css, script.js, assets/).
-3. Open https://app.netlify.com/drop in your browser.
-4. Drag the ZIP or the unzipped website folder into the drop area (if ZIP upload is not accepted, unzip it and drag the folder).
-5. Netlify will publish a preview URL. Open it on desktop and mobile and test the email and LinkedIn links.
-6. You can later rename the site in Netlify's site settings.
+PUBLISH WITH GITHUB PAGES
+1. Upload the CONTENTS of this folder to the root of your GitHub repository.
+2. Ensure index.html is at repository root, beside styles.css and script.js.
+3. Open Settings > Pages, select Deploy from a branch, branch main, folder /(root), and save.
+4. Wait for the Pages deployment and click Visit site.
 
-Before sharing publicly:
-- Confirm the experience dates and all profile details are current.
-- Confirm your LinkedIn URL is correct.
-- Only add project performance percentages/timing figures if you have genuine test records. They are intentionally not shown as measured results on this version.
-- Replace the sample workflow visuals with live demos or screenshots when available.
-
-This is a static website; no backend or API keys are needed.
+IMPORTANT
+Workflow visuals are illustrative concept diagrams, not screenshots of a live automation run. Their sample output data is illustrative, not verified performance. The diagrams do not use n8n. Replace sample outputs with real anonymized screenshots after testing your own workflows.
